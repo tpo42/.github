@@ -1,0 +1,26 @@
+= TPO42 Framework Organisation
+
+image:./tpo42-logo.png[tpo42] Framework
+
+== Technical Product Owner Framework
+
+TPO42 combines **req42** requirements engineering with **arc42** architecture documentation
+for Technical Product Owners bridging business value and technical excellence.
+
+=== 🏗️ Core Repositories
+
+- https://github.com/tpo42/tpo42-templates[tpo42-templates] - Core framework templates and tools
+- https://github.com/tpo42/tpo42.de[tpo42.de] - German website
+- https://github.com/tpo42/tpo42.org[tpo42.org] - English website
+- https://github.com/tpo42/docs.tpo42.org[docs.tpo42.org] - Documentation
+
+=== 🚀 Quick Start
+
+```bash
+# Clone framework templates
+git clone https://github.com/tpo42/tpo42-templates.git
+cd tpo42-templates
+
+# Generate documentation
+dtcw docker generatePDF
+```
